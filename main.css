@@ -1,0 +1,313 @@
+
+*{
+  box-sizing: border-box;
+}
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  font-size: 18px;
+}
+
+#nav{
+  color: white;
+  font-weight: 500;
+}
+
+#join{
+  margin-left: 6em;
+  background-color: #512DA8;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 1em;
+  font-size: 25px;
+  color: #512DA8;
+  font-weight: bolder;
+}
+
+.jumbotron{
+  background-image: url('3D mammography.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  color: floralwhite;
+  font-weight: bold;
+  transition-duration: 2s;
+}
+.jumbotron:hover{
+  opacity: 1;
+}
+
+.ribbon{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#contact{
+  margin-left: 5.5em;
+}
+
+.navbar-header button.navbar-toggler{
+  clear: both;
+}
+.navbar-header button.navbar-toggler, .navbar-header .navbar-toggler-icon{
+  border: 2px solid white;
+}
+/*.navbar-toggler .navbar-toggler-icon{
+  background-color: black;
+}*/
+
+#second{
+  text-align: center;
+  margin-top: 1em;
+}
+
+.about{
+  background-color: #D1C4E9;
+}
+
+#services{
+  margin-top: 1em;
+  text-align: center;
+}
+
+.image-container {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22); /* material box shadow */
+  margin-bottom: 20px;
+}
+.image-description {
+  padding: 0 15px 15px 15px;
+  text-align: center;
+  }
+
+.navbar-dark{
+  background-color: #512DA8;
+}
+
+.modal-header{
+  background-color:#4a2492;
+}
+
+.modal-body{
+  background-color:#ecd4fc;
+}
+
+.form-group{
+  color: black;
+}
+
+.modal-title{
+  color: floralwhite;
+}
+
+.close{
+  color: floralwhite;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: navy;
+}
+
+footer {
+  background: #D1C4E9;
+  padding-top: 7px;
+}
+
+footer ul li a{
+  color: navy;
+}
+
+footer .text-center a i{
+  color: navy;
+}
+
+
+
+/*
+article{
+  background-color: hsl(0, 0%, 75%);
+  padding: 20px;
+  margin-top: 6em;
+}
+#stat{
+  margin-top: -1em;
+}
+#statistics{
+  font-size: 22px;
+  text-align: center;
+  color: hsl(255, 11%, 22%);
+}
+#track{
+  text-align: center;
+  font-size: 14px;
+  color: hsl(260, 8%, 14%);
+}
+#main{
+  background-color: white;
+  border-radius: 5px;
+ margin-top: 3em;
+}
+#main1{
+  background-color: white;
+  border-radius: 5px;
+}
+#main2{
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 3em;
+}
+p{
+  text-align: center;
+  font-size: 13px;
+}
+h5{
+  text-align: center;
+  margin-top: -5px;
+  color: hsl(255, 11%, 22%);
+}
+#text{
+  color: hsl(0, 0%, 75%);
+}
+#sub{
+  background-image: url("images/bg-boost-mobile.svg");
+  background-color: hsl(257, 27%, 26%);
+  background-repeat: no-repeat;
+  padding: 60px 10px 60px 10px;
+  background-size: 120%;
+  margin-left: 0.7em;
+}
+#Boost{
+  text-align: center;
+  color: white;
+  margin-top: 1em;
+}
+#boost{
+  background-color: hsl(180, 66%, 49%);
+  padding-left: 5px;
+  border-radius: 15px;
+  color: white;
+}
+.footer{
+  background-color: black;
+  color: white;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+h6{
+  text-align: center;
+}
+h3{
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#company a{
+  color: hsl(0, 0%, 75%);
+}
+#company{
+  text-align: center;
+}
+#image{
+  position: relative;
+  top: -2em;
+  left: 3.5em;
+  background-color: hsl(257, 27%, 26%);
+  padding: 12px;
+  border-radius: 50px;
+}
+.link{
+  position: relative;
+  background-color: hsl(180, 66%, 49%);
+  left: 6.5em;
+  width: 10%;
+  height: 70px;
+}
+
+ 
+@media screen and (min-width: 700px){
+.collapse{
+  background-color: white;
+   }
+   #nav{
+     color: black;
+   }
+   #nav1{
+     color: grey;
+   }
+   #login{
+     color: black;
+   }
+}
+
+
+/*
+.navbar-dark{
+  background-color: violet;
+}
+
+#
+
+.navbar-toggler{
+  color: black;
+}
+
+#
+
+#
+
+#header{
+  background-color: blue;
+}
+
+article{
+  background-color: hsl(0, 0%, 75%);
+}
+
+h1{
+  font-weight: 700;
+  margin-top: 2em;
+  margin-left: 1em;
+  font-size: 60px;
+}
+
+#build{
+  margin-left: 4em;
+}
+
+#get{
+  
+}
+
+#shortening{
+  position: absolute;
+  top: 60em;
+}
+
+#shorten{
+  
+}
+
+#statistics{
+  margin-top: 5em;
+}
+
+h4{
+  text-align: center;
+}
+
+#track{
+  text-align: center;
+}
+
+#main{
+  background-color: white;
+  margin: 1em;
+  padding-top: 20px;
+  margin-right: 1em;
+  text-align: justify;
+}
